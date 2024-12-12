@@ -52,6 +52,7 @@ export function Header() {
                   </li>
                 </>
               )}
+              <span className="navbar-brand mb-0"> {localStorage.email}</span>
             </ul>
           </div>
         </div>
